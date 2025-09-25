@@ -1,50 +1,55 @@
-# Ex.No.4-EXP 4 Generate the Prompt and eveluate that for following prompt types - Comparative Analysis Prompt Experiential Perspective Prompt - Everyday Functioning Prompts - Universal Prompt Structures Prompt Refinements- Prompt Size Limitations.
-### DATE:                                                                            
-### REGISTER NUMBER : 
-### Aim: To write the prompt for the following prompt types and ompare that with differenet AI tools and evaluate that using any one evaluation method (eg. Rubrics). 1.Comparative Analysis Prompt 2. Experiential Perspective Prompt 3. Everyday Functioning Prompts 4. Universal Prompt Structures Prompt Refinements 5. Prompt Size Limitations design an AI 
+# EX4: Prompt Design & Evaluation for IoT Manufacturing Automation
 
-### Explanation - Any one use case from Unit 5 and write the prompt for that with the unit 2 Prompt types given above.
+**Date:** 25-09-2025  
+**Register Number:** 212223240033
 
-Procedure:
-1.	Define the Scenario and Use Case:
-Scenario:
-The manufacturing industry is looking to reduce manual monitoring and increase efficiency through automation. The system will utilize IoT devices and embedded controllers to automate equipment, monitor performance, and enable predictive maintenance. The goal is to streamline the production process, minimize downtime, and enhance energy efficiency.
-Target Audience:
-Manufacturing companies, specifically in sectors like automotive, electronics, and food processing, where automation can significantly improve productivity.
+## Aim
+Create AI prompts of various types for a manufacturing scenario, test them on multiple AI tools, and evaluate using a rubric.
 
-Main Objectives:
+## Scenario
+A manufacturing plant wants to reduce manual monitoring and improve efficiency using IoT devices and embedded controllers for predictive maintenance, automation, and real-time monitoring.
 
-•	Improve production efficiency by 30%.
-•	Minimize machinery downtime with predictive maintenance.
-•	Enable real-time monitoring and remote control of manufacturing systems.
-•	Reduce energy consumption by optimizing processes.
- 
-2.	Identify Prompt Patterns for Each Design Aspect:
-Idea Generation Prompts:
+## Target Audience
+Manufacturing companies in automotive, electronics, and food processing.
 
-Comparative Analysis Prompt
-Definition: Asking for a comparison between two or more concepts, often highlighting similarities and differences.
-•	"Compare and contrast deep learning and machine learning."
-•	"How do renewable and non-renewable energy sources differ?"
+## Objectives
+- Increase production efficiency by 30%
+- Reduce machinery downtime
+- Enable real-time monitoring & remote control
+- Optimize energy consumption
 
-Experiential Perspective Prompt:
-> 	“As a software engineer, what are the benefits of using cloud computing in your projects?”
->  “From a student’s perspective, describe the challenges of online learning.”
+## Prompt Types
 
-Everyday Functioning Prompts:
-*	  “Describe the role of machine learning in everyday apps like YouTube or Netflix."
-*	 	“How is encryption used in daily life when sending WhatsApp messages?”
+### 1. Comparative Analysis Prompt
+**Definition:** Compare two or more concepts, highlighting similarities and differences.  
+**Example Prompt:** Compare IoT-based predictive maintenance vs traditional time-based maintenance in an automotive assembly line. Include workflow differences, cost, downtime, staffing, risks, and mitigation strategies. Conclude with a decision matrix recommending the best approach.  
+**Use Case Application:** Helps management decide whether to invest in IoT systems or continue manual maintenance.
 
-Universal Prompt Structures:
-^ 	“Explain [concept] in simple terms with an example.”
-^  “Explain the process of [task] step by step.”
+### 2. Experiential Perspective Prompt
+**Definition:** Generate AI responses from a specific role or viewpoint.  
+**Example Prompt:** Assume you are a plant manager at a food processing plant. Describe how IoT-based predictive maintenance affects daily operations, shift handovers, maintenance scheduling, and KPIs. List three quick wins and two long-term risks.  
+**Use Case Application:** Provides practical insights from the operator’s perspective for decision-making.
 
-Prompt Size Limitations:
-&  	“Translate this 5000-word essay into Tamil.”
-→ Manageable chunks: “Translate the first 1000 words into Tamil, then continue.”
-&  “Give me 50 examples of AI applications.”
-→ Adjust for size: “Give me 10 AI applications at a time.”
+### 3. Everyday Functioning Prompt
+**Definition:** Explain technical concepts using familiar everyday examples.  
+**Example Prompt:** Explain IoT predictive maintenance like using smart home devices (thermostats, smart fridges). Map analogies: Sensors → warning lights, Edge controllers → dashboard computers, Cloud analytics → smartphone apps.  
+**Use Case Application:** Helps employees relate to IoT systems through familiar concepts.
 
+### 4. Universal Prompt Structures
+**Definition:** Standard, reusable templates for any concept.  
+**Template:** Explain [concept] for [audience] in [format]. Include a one-sentence definition, step-by-step instructions (5 steps), and common troubleshooting tips (3 items).  
+**Use Case Application:** Generates role-specific guides, SOPs, or checklists.
 
+### 5. Prompt Size Limitations / Chunking
+**Definition:** Split large prompts into smaller chunks for better AI response.  
+**Prompt Example (Stepwise):**  
+- Phase 1: Provide high-level architecture for IoT predictive maintenance (<500 words).  
+- Phase 2: List hardware specs (sensors, controllers), network topology, and approximate costs.  
+- Phase 3: Create a 2-year phased implementation plan with milestones and KPIs.  
+**Use Case Application:** Manages complex tasks without overwhelming AI or readers.
 
-# Result: The various types of Prompts are executed successfully with generated the report.
+## Evaluation
+Use a rubric-based evaluation with criteria: Relevance, Clarity, Actionability, Specificity, Feasibility. Score 1–5 for each criterion per prompt output.
+
+## Assets
+Include diagrams or images representing the manufacturing scenario in the `assets/` folder (e.g., sensors, controllers, cloud system).
