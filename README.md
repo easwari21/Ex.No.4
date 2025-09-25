@@ -1,4 +1,4 @@
-# Ex.No.4-EXP 4: Generate and Evaluate Prompts
+# Ex.No.4-EXP 4 Generate the Prompt and eveluate that for following prompt types - Comparative Analysis Prompt Experiential Perspective Prompt - Everyday Functioning Prompts - Universal Prompt Structures Prompt Refinements- Prompt Size Limitations.
 
 **DATE:** 25-09-2025  
 **REGISTER NUMBER:** 212223240033
@@ -146,13 +146,14 @@ Facilitates creation of comprehensive plans without overwhelming the AI or the r
 ---
 
 ## Evaluation Table
+
 | Prompt Type | Tool | Relevance | Clarity | Actionability | Specificity | Feasibility | Total | Notes |
 |-------------|------|----------|---------|---------------|------------|------------|-------|------|
-| Comparative Analysis | ChatGPT |   |   |   |   |   |   |   |
-| Experiential Perspective | ChatGPT |   |   |   |   |   |   |   |
-| Everyday Functioning | ChatGPT |   |   |   |   |   |   |   |
-| Universal Structures | ChatGPT |   |   |   |   |   |   |   |
-| Prompt Size Limitations | ChatGPT |   |   |   |   |   |   |   |
+| Comparative Analysis | ChatGPT | 5 | 5 | 5 | 5 | 5 | 25 | Clearly compares IoT vs reactive maintenance with practical insights. |
+| Experiential Perspective | ChatGPT | 5 | 5 | 5 | 4 | 5 | 24 | Provides role-based perspective; slightly less specific metrics. |
+| Everyday Functioning | ChatGPT | 5 | 5 | 4 | 4 | 5 | 23 | Analogies are clear; may need more technical mapping for engineers. |
+| Universal Structures | ChatGPT | 5 | 5 | 5 | 5 | 5 | 25 | Stepwise explanation is highly structured and actionable. |
+| Prompt Size Limitations | ChatGPT | 5 | 5 | 5 | 5 | 5 | 25 | Large prompts broken down effectively; very feasible for planning. |
 
 ---
 
