@@ -1,55 +1,160 @@
-# EX4: Prompt Design & Evaluation for IoT Manufacturing Automation
+# Ex.No.4-EXP 4: Generate and Evaluate Prompts
 
-**Date:** 25-09-2025  
-**Register Number:** 212223240033
+**DATE:** 25-09-2025  
+**REGISTER NUMBER:** 212223240033
 
 ## Aim
-Create AI prompts of various types for a manufacturing scenario, test them on multiple AI tools, and evaluate using a rubric.
+To design and evaluate AI prompts of different types for manufacturing automation using IoT and embedded controllers, compare outputs from different AI tools, and evaluate using a rubric.
 
-## Scenario
-A manufacturing plant wants to reduce manual monitoring and improve efficiency using IoT devices and embedded controllers for predictive maintenance, automation, and real-time monitoring.
+### Prompt Types:
+- Comparative Analysis Prompt  
+- Experiential Perspective Prompt  
+- Everyday Functioning Prompt  
+- Universal Prompt Structures / Prompt Refinements  
+- Prompt Size Limitations  
+
+---
+
+## Scenario & Use Case
+A mid-size electronics manufacturing company wants to improve efficiency and reduce manual monitoring.  
+The system will use IoT-enabled sensors and embedded controllers to:  
+- Track machine performance in real-time  
+- Automate routine maintenance tasks  
+- Provide predictive alerts for potential breakdowns  
+
+**Goal:** Streamline production, reduce downtime, and optimize energy usage.
+
+---
 
 ## Target Audience
-Manufacturing companies in automotive, electronics, and food processing.
+Manufacturing companies in electronics, automotive, and packaging industries.
 
-## Objectives
-- Increase production efficiency by 30%
-- Reduce machinery downtime
-- Enable real-time monitoring & remote control
-- Optimize energy consumption
+---
 
-## Prompt Types
+## Main Objectives
+- Increase overall production throughput by 25–30%  
+- Minimize unplanned machine stoppages  
+- Enable remote monitoring and control  
+- Lower energy costs by optimizing equipment usage  
+
+---
+
+## CHATGPT Prompts
 
 ### 1. Comparative Analysis Prompt
-**Definition:** Compare two or more concepts, highlighting similarities and differences.  
-**Example Prompt:** Compare IoT-based predictive maintenance vs traditional time-based maintenance in an automotive assembly line. Include workflow differences, cost, downtime, staffing, risks, and mitigation strategies. Conclude with a decision matrix recommending the best approach.  
-**Use Case Application:** Helps management decide whether to invest in IoT systems or continue manual maintenance.
+**Definition:** Compares two or more approaches, highlighting advantages, disadvantages, and trade-offs.  
+**Prompt:**  
+> "Compare IoT-based predictive maintenance with reactive maintenance in a mid-size electronics plant. Discuss efficiency gains, maintenance cost differences, and workforce impact."  
+
+**Application to Manufacturing:**  
+Helps managers evaluate whether implementing predictive maintenance provides better ROI than continuing with reactive repairs.
+
+---
 
 ### 2. Experiential Perspective Prompt
-**Definition:** Generate AI responses from a specific role or viewpoint.  
-**Example Prompt:** Assume you are a plant manager at a food processing plant. Describe how IoT-based predictive maintenance affects daily operations, shift handovers, maintenance scheduling, and KPIs. List three quick wins and two long-term risks.  
-**Use Case Application:** Provides practical insights from the operator’s perspective for decision-making.
+**Definition:** Generates AI responses from a specific professional perspective.  
+**Prompt:**  
+> "As a production supervisor, explain how IoT-enabled automation impacts daily operations, maintenance scheduling, and employee workload in your factory."  
+
+**Application to Manufacturing:**  
+Gives practical insights for planning operational changes and allocating staff efficiently.
+
+---
 
 ### 3. Everyday Functioning Prompt
-**Definition:** Explain technical concepts using familiar everyday examples.  
-**Example Prompt:** Explain IoT predictive maintenance like using smart home devices (thermostats, smart fridges). Map analogies: Sensors → warning lights, Edge controllers → dashboard computers, Cloud analytics → smartphone apps.  
-**Use Case Application:** Helps employees relate to IoT systems through familiar concepts.
+**Definition:** Connects technical concepts to everyday analogies for better understanding.  
+**Prompt:**  
+> "Describe IoT predictive maintenance like using a fitness tracker for machines. How do sensors, dashboards, and alerts compare to steps counted, heart rate monitoring, and notifications on a smartwatch?"  
+
+**Application to Manufacturing:**  
+Makes the technology relatable to employees, simplifying training on new monitoring systems.
+
+---
 
 ### 4. Universal Prompt Structures
-**Definition:** Standard, reusable templates for any concept.  
-**Template:** Explain [concept] for [audience] in [format]. Include a one-sentence definition, step-by-step instructions (5 steps), and common troubleshooting tips (3 items).  
-**Use Case Application:** Generates role-specific guides, SOPs, or checklists.
+**Definition:** Reusable templates for explaining processes step-by-step in simple terms.  
+**Prompt:**  
+> "Explain the workflow of IoT-based predictive maintenance in simple terms. Include: sensor installation, data collection, alert generation, and corrective actions step by step."  
+
+**Application to Manufacturing:**  
+Provides engineers and trainees with a clear, structured understanding of the system.
+
+---
 
 ### 5. Prompt Size Limitations / Chunking
-**Definition:** Split large prompts into smaller chunks for better AI response.  
-**Prompt Example (Stepwise):**  
-- Phase 1: Provide high-level architecture for IoT predictive maintenance (<500 words).  
-- Phase 2: List hardware specs (sensors, controllers), network topology, and approximate costs.  
-- Phase 3: Create a 2-year phased implementation plan with milestones and KPIs.  
-**Use Case Application:** Manages complex tasks without overwhelming AI or readers.
+**Definition:** Splits large prompts into smaller, manageable sections for AI processing.  
+**Prompt:**  
+> "Phase 1: Describe the key components of an IoT-based automation system.  
+> Phase 2: List specific sensors, controllers, and network requirements.  
+> Phase 3: Provide a 12-month implementation timeline with milestones and KPIs."  
 
-## Evaluation
-Use a rubric-based evaluation with criteria: Relevance, Clarity, Actionability, Specificity, Feasibility. Score 1–5 for each criterion per prompt output.
+**Application to Manufacturing:**  
+Ensures detailed plans are generated progressively, making it easier to review and implement.
 
-## Assets
-Include diagrams or images representing the manufacturing scenario in the `assets/` folder (e.g., sensors, controllers, cloud system).
+---
+
+## GEMINI Prompts
+
+### 1. Comparative Analysis Prompt
+**Definition:** Highlights differences and benefits between multiple approaches.  
+**Example Prompt:**  
+> "Compare IoT-enabled predictive maintenance with preventive maintenance in an electronics factory. Include metrics like MTBF, downtime, and energy savings."  
+
+**Application:**  
+Supports decision-making by showing measurable advantages of each approach.
+
+---
+
+### 2. Experiential Perspective Prompt
+**Definition:** Generates AI responses from a chosen professional role.  
+**Example Prompt:**  
+> "Imagine you are a maintenance engineer. Explain the challenges of unplanned machine downtime and how IoT predictive alerts can improve your workflow."  
+
+**Application:**  
+Provides hands-on insights from the perspective of personnel directly impacted by automation.
+
+---
+
+### 3. Everyday Functioning Prompt
+**Definition:** Explains technology using simple, relatable examples.  
+**Example Prompt:**  
+> "Describe how IoT sensors in manufacturing are like a smart fridge tracking temperature and alerting when something is wrong."  
+
+**Application:**  
+Helps non-technical employees understand and trust automated monitoring systems.
+
+---
+
+### 4. Universal Prompt Structures / Refinements
+**Definition:** Uses a standard template refined for practical tasks.  
+**Example Prompt:**  
+> "Explain [IoT predictive maintenance] in simple terms. Step-by-step, describe installation, data collection, alert handling, and reporting."  
+
+**Application:**  
+Produces clear, structured documentation for staff training or operational guides.
+
+---
+
+### 5. Prompt Size Limitations
+**Definition:** Handles complex instructions by breaking them into sequential steps.  
+**Example Prompt:**  
+> "Generate a detailed automation plan for a 24-hour electronics assembly line. First, describe hardware setup, then software integration, finally workflow monitoring and KPI tracking."  
+
+**Application:**  
+Facilitates creation of comprehensive plans without overwhelming the AI or the reader.
+
+---
+
+## Evaluation Table
+| Prompt Type | Tool | Relevance | Clarity | Actionability | Specificity | Feasibility | Total | Notes |
+|-------------|------|----------|---------|---------------|------------|------------|-------|------|
+| Comparative Analysis | ChatGPT |   |   |   |   |   |   |   |
+| Experiential Perspective | ChatGPT |   |   |   |   |   |   |   |
+| Everyday Functioning | ChatGPT |   |   |   |   |   |   |   |
+| Universal Structures | ChatGPT |   |   |   |   |   |   |   |
+| Prompt Size Limitations | ChatGPT |   |   |   |   |   |   |   |
+
+---
+
+## Result
+All prompt types were successfully designed and can be tested across AI tools for effectiveness in generating actionable insights for IoT-based manufacturing automation.
